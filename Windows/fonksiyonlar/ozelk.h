@@ -1,7 +1,7 @@
 
 /** 3 karakter içerenler linux için(Windows'un varsayılan karakterlerinde yok)
 
-/**ust: u alt: a saÄŸ: s sol: o */
+/**ust: u alt: a sag: s sol: o */
 
 char  _kos[2] = {205};
 char  _kua[2] = {186};
