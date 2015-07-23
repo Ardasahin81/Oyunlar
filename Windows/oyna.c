@@ -19,6 +19,16 @@ int tus;
 #include "oyunbasliklari/ttt.h"
 #include "oyunbasliklari/minesweeper.h"
 
+void temizle() {
+	system("cls");
+	int i,j;
+	for(i=0;i<satir;i++) {
+		for(j=0;j<sutun;j++) {
+			oncekiekran[i][j]=0;
+		}
+	}
+}
+
 void bostanitim() {
 		
 	int i,j;
@@ -196,6 +206,7 @@ void oyunsec() {
 				mayin();
 				satir=25;
 				sutun=70;
+				temizle();
 			}
 		}
 		
