@@ -99,7 +99,6 @@ int tusalsnake(void) {
 
 
 int yilan() {
-	srand(time(NULL));
 	int yemsatir=5,yemsutun=5;
 	int yb=1;// Yılanın boyu
 	int yilan[1680][2]= { };

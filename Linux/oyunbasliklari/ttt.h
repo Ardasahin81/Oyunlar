@@ -324,7 +324,6 @@ int bilsira(int zorluk) {
 }
 
 int tictactoe(void) {
-	srand(time(NULL));
 	int i;
 	int sira=0;//Çift ise x
 	int oyna;

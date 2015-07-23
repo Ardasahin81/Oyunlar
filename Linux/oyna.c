@@ -205,7 +205,7 @@ void oyunsec() {
 
 
 int main() {
-	
+	srand(time(NULL));
 	
 	oyunsec();
 	

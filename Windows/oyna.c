@@ -190,6 +190,7 @@ void oyunsec() {
 			} else if(menu==2) {
 				tictactoe();
 			} else if(menu==3) {
+				system("cls");
 				satir=12;
 				sutun=34;
 				mayin();
@@ -206,7 +207,7 @@ void oyunsec() {
 
 
 int main() {
-	
+	srand(time(NULL));
 	
 	oyunsec();
 	
